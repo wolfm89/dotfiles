@@ -28,6 +28,9 @@
     ~/.config/ranger/rc.conf:
       create: true
       path: config/ranger/rc.conf
+    ~/.config/udiskie/config.yml:
+      create: true
+      path: config/udiskie/config.yml
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

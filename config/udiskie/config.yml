@@ -1,0 +1,32 @@
+program_options:
+  udisks_version: 2
+  tray: auto
+  menu: smart
+  automount: true
+  notify: true
+
+mount_options:
+- id_type: vfat
+  options: flush
+- id_type: ext4
+  options: [noatime,data=writeback]
+- id_type: ntfs
+  options: [dmask=027,fmask=137]
+
+notifications:
+  # Customize which notifications are shown for how long. Possible
+  # values are:
+  #   positive number         timeout in seconds
+  #   false                   disable
+  #   -1                      use the libnotify default timeout
+
+  timeout:          1.5     # set the default for all notifications
+
+  # Specify only if you want to overwrite the the default:
+  device_mounted:   5       # mount notification
+  device_unmounted: 5   # unmount notification
+  device_added:     false   # device has appeared
+  device_removed:   false   # device has disappeared
+  device_unlocked:  false      # encrypted device was unlocked
+  device_locked:    false      # encrypted device was locked
+  job_failed:       false      # mount/unlock/.. has failed
