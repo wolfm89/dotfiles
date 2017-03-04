@@ -4,9 +4,10 @@
 
 - link:
     /usr/local/bin/autoxrandr: bin/autoxrandr.sh
-    /etc/udev/rules.d/95-monitor-hotplug.rules: udev/95-monitor-hotplug.rules
     /usr/local/bin/touchpad_toggle: bin/touchpad_toggle.sh
     /usr/local/bin/playerctl-cmus: bin/playerctl-cmus.sh
+    /etc/udev/rules.d/95-monitor-hotplug.rules: udev/95-monitor-hotplug.rules
+    /etc/udev/rules.d/99-udisks2.rules: udev/99-udisks2.rules
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

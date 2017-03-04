@@ -1,4 +1,5 @@
 - yaourt:
+    - udiskie
     - gvim
     - ranger
     - twmn-git
