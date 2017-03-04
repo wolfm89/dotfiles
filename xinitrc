@@ -44,5 +44,5 @@ udiskie --smart-tray --use-udisks2 & #--options="uid=1000,gid=100,utf8,dmask=027
 twmnd &
 nitrogen --restore &
 xset s off &
-autoxrandr.sh &
+autoxrandr &
 exec i3
