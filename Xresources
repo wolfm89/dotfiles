@@ -29,7 +29,6 @@ URxvt*cursorBlink: true
 URxvt*cursorUnderline: true
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt.secondaryWheel: 1
 ! URXVT FULLSCREEN TOGGLE
 !------------------------------------------------
 URxvt.keysym.F11: perl:fullscreen:switch
