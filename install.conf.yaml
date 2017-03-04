@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.xinitrc:
+    ~/.zprezto:
+    ~/.zlogin: zprezto/runcoms/zlogin
+    ~/.zlogout: zprezto/runcoms/zlogout
+    ~/.zpreztorc: zprezto/runcoms/zpreztorc
+    ~/.zprofile: zprezto/runcoms/zprofile
+    ~/.zshenv: zprezto/runcoms/zshenv
+    ~/.zshrc: zprezto/runcoms/zshrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
