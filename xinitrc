@@ -40,9 +40,10 @@ fi
 #exec xterm -geometry 80x66+0+0 -name login
 
 LC_ALL=C clipit &
-udiskie --smart-tray --use-udisks2 & #--options="uid=1000,gid=100,utf8,dmask=027,fmask=137" &
+udiskie &
 twmnd &
-nitrogen --restore &
 xset s off &
+xrandr --output HDMI2 --off &
 autoxrandr &
+nitrogen --restore &
 exec i3
