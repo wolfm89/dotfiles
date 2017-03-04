@@ -8,6 +8,8 @@
     ~/.gitconfig:
     ~/.bash_profile:
     ~/.xinitrc:
+    ~/.vimrc:
+    ~/.vim:
     ~/.zprezto:
     ~/.zlogin: zprezto/runcoms/zlogin
     ~/.zlogout: zprezto/runcoms/zlogout
