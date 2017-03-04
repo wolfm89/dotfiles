@@ -1,9 +1,9 @@
-[submodule "dotbot"]
-	path = .dotbot
-	url = https://github.com/anishathalye/dotbot
-[submodule "dotbot-yaourt"]
-	path = .dotbot-yaourt
-	url = https://github.com/niklas-heer/dotbot-yaourt
 [submodule "zprezto"]
 	path = zprezto
 	url = git@github.com:lebenlechzer/prezto.git
+[submodule ".dotbot"]
+	path = .dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule ".dotbot-yaourt"]
+	path = .dotbot-yaourt
+	url = https://github.com/niklas-heer/dotbot-yaourt
