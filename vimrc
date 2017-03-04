@@ -20,7 +20,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'ntpeters/vim-better-whitespace'
-"Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-eunuch'
@@ -97,17 +98,16 @@ syntax on
 set background=dark
 set t_Co=256 " 256 colors in terminal
 
-if has('gui_gnome')
-  set guifont=Ubuntu\ Mono\ 8.4
-endif
-
-
 " Tweaks for Molokai colorscheme (ignored if Molokai isn't used)
 let g:molokai_original=1
 let g:rehash256=1
 
 " powerline for py3
-let g:powerline_pycmd="py3"
+" let g:powerline_pycmd="py3"
+
+" set airline theme
+let g:airline_theme='molokai'
+let g:airline_powerline_fonts=1
 
 " Use the first available colorscheme in this list
 for scheme in [ 'molokai', 'solarized', 'desert' ]

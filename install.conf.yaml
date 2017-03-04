@@ -8,6 +8,7 @@
     ~/.gitconfig:
     ~/.bash_profile:
     ~/.xinitrc:
+    ~/.Xresources:
     ~/.vimrc:
     ~/.vim:
     ~/.zprezto:
