@@ -6,6 +6,7 @@
 
 - link:
     ~/.xinitrc:
+    ~/.zprezto:
     ~/.zlogin: zprezto/runcoms/zlogin
     ~/.zlogout: zprezto/runcoms/zlogout
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
