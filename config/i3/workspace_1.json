@@ -1,0 +1,20 @@
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 732,
+       "width": 1362,
+       "x": 2,
+       "y": 16
+    },
+    "name": "New Tab - Chromium",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Chromium$"
+       }
+    ],
+    "type": "con"
+}
+

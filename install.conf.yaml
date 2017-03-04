@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.gitconfig:
     ~/.xinitrc:
     ~/.zprezto:
     ~/.zlogin: zprezto/runcoms/zlogin
@@ -13,10 +14,19 @@
     ~/.zprofile: zprezto/runcoms/zprofile
     ~/.zshenv: zprezto/runcoms/zshenv
     ~/.zshrc: zprezto/runcoms/zshrc
-    /usr/local/bin/autoxrandr: bin/autoxrandr.sh
-    /etc/udev/rules.d/95-monitor-hotplug.rules: udev/95-monitor-hotplug.rules
-    /usr/local/bin/touchpad_toggle: bin/touchpad_toggle.sh
-    /usr/local/bin/playerctl-cmus: bin/playerctl-cmus.sh
+    ~/.config/i3:
+      create: true
+      path: config/i3
+    ~/.config/i3blocks:
+      create: true
+      path: config/i3blocks
+    ~/.config/load_layout.sh: config/load_layout.sh
+    ~/.config/twmn:
+      create: true
+      path: config/twmn
+    ~/.config/ranger/rc.conf:
+      create: true
+      path: config/ranger/rc.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
