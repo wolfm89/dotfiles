@@ -11,3 +11,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - ['sed -i "/if (( EUID.*/,/fi/ s/^\([^#]\)/#\1/" /usr/bin/connman_dmenu', Removing root permissions check from connman_dmenu]
