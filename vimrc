@@ -28,6 +28,7 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'ervandew/supertab'
 Plugin 'mutewinter/vim-autoreadwatch'
 Plugin 'lervag/vimtex'
+Plugin 'nathangrigg/vim-beancount'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
