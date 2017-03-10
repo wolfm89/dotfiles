@@ -147,6 +147,9 @@ autocmd FileType tex setlocal tw=0 spell
 autocmd FileType tex setlocal syntax=tex
 let g:tex_flavor='latex'
 
+" Beancount align commodity column
+let g:beancount_separator_col = 60
+
 " AUTOREAD
 command! -bang WatchForChangesAllFileQuiet :call WatchForChanges('*', {'toggle': 1, 'autoread': <bang>0, 'quiet': 1})
 autocmd VimEnter * WatchForChangesAllFileQuiet!

@@ -1,4 +1,6 @@
 - yaourt:
+    - i3-gaps
+    - compton
     - udiskie
     - gvim
     - ranger

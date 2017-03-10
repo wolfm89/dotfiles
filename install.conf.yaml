@@ -28,6 +28,7 @@
     ~/.config/twmn:
       create: true
       path: config/twmn
+    ~/.config/compton.conf: config/compton.conf
     ~/.config/ranger/rc.conf:
       create: true
       path: config/ranger/rc.conf

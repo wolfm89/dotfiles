@@ -46,4 +46,5 @@ xset s off &
 xrandr --output HDMI2 --off &
 autoxrandr &
 nitrogen --restore &
+compton &
 exec i3
