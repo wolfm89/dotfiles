@@ -9,6 +9,7 @@
     ~/.bash_profile:
     ~/.xinitrc:
     ~/.Xresources:
+    ~/.gtkrc-2.0:
     ~/.vimrc:
     ~/.vim:
     ~/.zprezto:
