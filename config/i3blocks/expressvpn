@@ -1,0 +1,11 @@
+#!/bin/bash
+
+status=$(expressvpn status)
+
+if [[ "$status" == *"Not connected."* ]]; then
+  echo "<span color='#FF0000'>vpn down</span>"
+elif [[ "$status" == *"Connected to "* ]]; then
+  ip=$(expressvpn diagnostics | egrep ".*ip.*protocol.*" | grep --color=never -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
+  loc=$(echo $status | rev | cut -f1 -d' ' | rev)
+  echo "$loc <span color='#00FF00'>$ip</span>"
+fi

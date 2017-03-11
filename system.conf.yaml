@@ -8,6 +8,7 @@
     /usr/local/bin/playerctl-cmus: bin/playerctl-cmus.sh
     /etc/udev/rules.d/95-monitor-hotplug.rules: udev/95-monitor-hotplug.rules
     /etc/udev/rules.d/99-udisks2.rules: udev/99-udisks2.rules
+    /usr/lib/i3blocks/expressvpn: config/i3blocks/expressvpn
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

@@ -98,6 +98,12 @@ interval=5
 interval=5
 min_width=- 100K - 10K
 
+# Expressvpn
+[expressvpn]
+label= 
+interval=10
+markup=pango
+
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
@@ -137,8 +143,8 @@ interval=5
 # OpenVPN support
 #
 # Support multiple VPN, with colors.
-#[openvpn]
-#interval=20
+# [openvpn]
+# interval=20
 
 # Temperature
 #
