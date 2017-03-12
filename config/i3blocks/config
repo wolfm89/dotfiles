@@ -170,3 +170,8 @@ interval=10
 #instance=NUM
 #interval=once
 #signal=11
+
+[shutdown_menu]
+full_text= 
+# label=
+command=/home/wolfgang/.dotfiles/config/i3blocks/shutdown_menu -c; echo " "
