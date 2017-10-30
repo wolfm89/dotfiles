@@ -23,7 +23,7 @@ rofi.separator-style:                dash!
 !URxvt.geometry: 80x22
 ! URXVT FONTS
 !------------------------------------------------
-URxvt.font: xft:Inconsolata for Powerline:size=11
+URxvt.font: xft:Consolas:size=11
 !URxvt.font:xft:Lemon:pixelsize=10
 !URxvt.boldFont:xft:Lemon:bold:pixelsize=10
 !URxvt.italicfont:xft:Lemon:italic:pixelsize=10
